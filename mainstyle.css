@@ -1,0 +1,117 @@
+a{
+  text-decoration: none;
+}
+.timesnewroman {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+
+  .contactText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+  }
+  .dropdownstyle {
+    /* background-color: aqua; */
+    border-radius: 10px;
+    /* border-bottom: none; */
+  }
+  .bg-img{
+    height: 300px;
+    width: 100%;
+    background-image: url("csBZU.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-link:hover{
+  color: #fff;
+}
+.navbar-collapse{
+  font-size: 13px;
+}
+
+  .modbg {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+  .blinking-button {
+    animation: blinker 1s linear infinite;
+    color: #166df0;
+    font-weight: bold;
+  }
+
+  @keyframes blinker {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .contact-section {
+  background-color: #1b4b91;
+  color: #fff;
+  padding: 50px 0;
+  border-radius: 30px;
+  border-top: 10px solid white; /* Add a blue border at the top */
+  border-bottom: 10px solid white;
+    
+  }
+
+  .contact-icons a {
+    color: #007bff;
+    font-size: 24px;
+  }
+  .quick-links {
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+  }
+  .quick-link-item {
+    display: inline-block;
+    margin: 10px;
+  }
+  .quick-link-item img {
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .quick-link-item p {
+    cursor: pointer;
+  }
+  .quicklinkstext{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      
+  }
+  .quicklinkitemimage{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .tablerow{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    
+  }
+  .navbar-collapse {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }

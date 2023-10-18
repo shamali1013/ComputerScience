@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department of Computer Science</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="shortcut icon" href="bzulogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+  <!-- NavBar -->
+
+  <nav class="navbar navbar-expand-lg " style="background-color: #1b4b91;">
+    <a href="#" class="navbar-brand mx-2 text-white"><h3>ComputerScienceBZU</h3></a>
+    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#simpleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+    <div class="collapse navbar-collapse " id="simpleNavbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link timesnewroman" href="https://cs.bzu.edu.pk/programs.php">PROGRAMS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link timesnewroman" href="https://cs.bzu.edu.pk/labs.php">LABS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link timesnewroman" href="https://cs.bzu.edu.pk/faculty.php">FACULTY</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle timesnewroman" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            RESEARCH
+          </a>
+          <div class="dropdown-menu dropdownstyle" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/getresearch.php">Publications</a>
+
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/labs.php">Facilities</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/phdstudents.php/">Ph.D Scholars</a>
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/researchcell/">Faculty Portal</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle timesnewroman" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ADMISSIONS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/bscs.php">BS(CS)</a>
+
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/mcs.php">MCS</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/mscs.php">MS(CS)</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/msds.php">MS(DS)</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/phdcs.php">Ph.d (CS)</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle timesnewroman" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            STUDENTS' PORTAL
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/schemeofstudies.php">Scheme of Studies</a>
+            <a class="dropdown-item" href="http://cs-lms.bzu.edu.pk/">LMS @CS</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/timetables.php">Time Tables</a>
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/courses/">Course Links</a>
+            <a class="dropdown-item" href="https://cs.bzu.edu.pk/datesheets.php">Exams / Datsheets</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/thesis.php">Thesis Formats</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/digitallib.php">Digital Library</a>
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/gallery.php">Gallery</a>
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle timesnewroman" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            AFFLIATIONS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/downloads/ADS.CS.21.pdf">ADS(CS)</a>
+
+            <a class="dropdown-item" href="http://cs.bzu.edu.pk/downloads/BSCS.21.Colleges.pdf">BS(CS)-Affilate
+              Colleges</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link timesnewroman" href="About.html" target="_blank">ABOUT <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link timesnewroman" href="Contactus\ContactFrom_v1\index.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link timesnewroman" href="Scholarships.html" target="_blank">SCHOLARSHIPS</a>
+        </li>
+    </div>
+  </nav>
+  <div class="container-fluid bg-img"></div>
+  <!-- <img src="csBZU.png" height="300px" width="100%"> -->
+
+  <!-- Modal -->
+
+  <div class="modal " id="latestEventsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"
+            style="font-family: 'Times New Roman', Times, serif; color: #166df0; font-weight: bold;">Latest Events</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Place your latest events content here -->
+          <p><a class="modbg" href="https://cs.bzu.edu.pk/newscontent.php?newsid=63 ">ADMISSIONS 2023 .. MS(CS)
+              Departmental
+              Test Format</a>
+            <button class="blinking-button btn btn-link" data-dismiss="modal">New</button>
+          </p>
+          <p><a class="modbg" href="https://cs.bzu.edu.pk/newscontent.php?newsid=64 ">ADMISSIONS 2023 .. MS(DS)
+              Departmental
+              Test Format</a>
+            <button class="blinking-button btn btn-link" data-dismiss="modal">New</button>
+          </p>
+
+          <p><a class="modbg" href="https://cs.bzu.edu.pk/acadcalendar.php">ACADEMIC CALENDAR 2023-24.</a>
+            <button class="blinking-button btn btn-link" data-dismiss="modal">New</button>
+          </p>
+          <p><a class="modbg" href="https://cs.bzu.edu.pk/newscontent.php?newsid=60">FINAL-TERM Exams SPRING 2023</a>
+
+            <button class="blinking-button btn btn-link" data-dismiss="modal">New</button>
+          </p>
+          <p><a class="modbg" href="https://cs.bzu.edu.pk/newscontent.php?newsid=61">ADMISSIONS FALL 2023 OPEN NOW</a>
+
+            <button class="blinking-button btn btn-link" data-dismiss="modal">New</button>
+          </p>
+
+
+          <!-- Add more events as needed -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal"
+            style="background-color: #166df0;">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="quick-links quicklinkstext">
+        <h3 style="color: #1b4b91; font-family: 'Times New Roman', Times, serif;  font-weight: bold;">Quick Links</h3>
+
+      <div class="quick-link-item">
+
+        <a href="http://cs.bzu.edu.pk/crdc.bzu.edu.pk" target="_self">
+          <img src="crdc.jpg" alt="Facebook">
+          <p style="color: black;">Computing Research And <br> Development Center</p>
+        </a>
+      </div>
+      <div class="quick-link-item">
+        <a href="https://cs.bzu.edu.pk/studentportal.php" target="_self">
+          <img src="StudentPortal.jpg" alt="Facebook">
+          <p style="color: black;">Students' Portal</p>
+        </a>
+      </div>
+      <div class="quick-link-item">
+        <a href="http://cs.bzu.edu.pk/gallery.php" target="_self">
+          <img src="zacs.gif" alt="Facebook">
+          <p style="color: black;">ZACS CORNER</p>
+        </a>
+      </div>
+      <div class="quick-link-item">
+        <a href="http://cs.bzu.edu.pk/alumni.cs/" target="_self">
+          <img src="AluminiCorner.gif" alt="Facebook">
+          <p style="color: black;">Alumini Corner</p>
+        </a>
+      </div>
+      
+      <!-- Add more quick link items as needed -->
+    </div>
+  </div>
+  <div class="container">
+    <div class="quick-links quicklinkstext ">
+        <!-- <h3 style="color: #1b4b91; font-family: 'Times New Roman', Times, serif;  font-weight: bold;">Quick Links</h3> -->
+
+        <div class="quick-link-item">
+
+          <a href="https://cs.bzu.edu.pk/programs.php" target="_blank">
+            <img src="programs.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">PROGRAMS <br> OFFERED</p>
+          </a>
+        </div>
+        <div class="quick-link-item">
+          <a href="https://cs.bzu.edu.pk/lastmerits.php" target="_blank">
+            <img src="lastmerit.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">LAST MERITS<br>[2022]</p>
+          </a>
+        </div>
+        <div class="quick-link-item">
+          <a href="https://cs.bzu.edu.pk/meritcalc.php" target="_blank">
+            <img src="meritcal.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">MERIT PERCENTAGE<br> CALCULATOR</p>
+          </a>
+        </div>
+        <div class="quick-link-item">
+          <a href="https://cs.bzu.edu.pk/schemeofstudies.php" target="_blank">
+            <img src="meritcal.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">SCHEMES OF <br>STUDY</p>
+          </a>
+        </div>
+        <div class="quick-link-item">
+          <a href="https://cs.bzu.edu.pk/acadcalendar.php" target="_blank">
+            <img src="adm17.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">BZU ACADEMIC<br>CALENDAR</p>
+          </a>
+        </div>
+        <div class="quick-link-item">
+          <a href="https://cs.bzu.edu.pk/admissions.php" target="_blank">
+            <img src="apply.jpg" alt="Facebook" style="height: 100px; width: 100px;">
+            <p style="color: black;">ADMISSIONS<br>[OPEN NOW]</p>
+          </a>
+        </div>
+      <!-- Add more quick link items as needed -->
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="d-flex justify-content-center">
+      <p style="background-color:#1b4b91; color: white; width: 50%; padding: 10px;border-radius: 10px; font-family: 'Times New Roman', Times, serif; font-weight: bold;">Quickly Find Out What You Are Looking For?</p>
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="d-flex justify-content-center">
+      <table class="tablerow">
+        <tr>
+          <td><a href="http://cs.bzu.edu.pk/acadcalendar.php" target="_self">Calendar &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/timetables.php" target="_self">Class Schedules &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/admissions.php" target="_self">Admissions@Bzu &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/studentportal.php" target="_self">Parent Information &nbsp;</a></td>
+          
+        </tr>
+        <tr>
+          <td><a href="http://cs.bzu.edu.pk/administration.php" target="_self">Administration Office &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/datesheets.php" target="_self">Exam Schedules &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/gallery.php" target="_self">ZACS Activites &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/schemeofstudies.php" target="_self">Scheme of Studies &nbsp;</a></td>
+          
+        </tr>
+        <tr>
+          <td><a href="http://cs.bzu.edu.pk/dsaoffice.php" target="_self">Student Affairs Office &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/gallery.php" target="_self">Campus Life At a Glance &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/alumni.php" target="_self">Alumini Events &nbsp;</a></td>
+          <td><a href="http://cs.bzu.edu.pk/complaintform.php" target="_self">Contact the Chairman &nbsp;</a></td>
+          
+        </tr>
+        
+          </table>
+          
+    </div>
+  </div>
+  <!-- ContactUS -->
+  <div class="container contactText">
+    <div class="contact-section text-center">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2>Contact Us</h2>
+          <address>
+            Department of Computer Science
+            Bahauddin Zakariya University
+            Multan,Pakistan </address>
+          <p><b>Phone: </b>(+92) 61 9210134</p>
+          <p><b>Email: </b><a href="mailto:cs@bzu.edu.pk" class="text-white">cs@bzu.edu.pk</a></p>
+          <div class="contact-icons">
+            
+            <a href="https://www.facebook.com/dcs.bzu" target="_blank"><img src="facebook.png"
+                alt="Facebook"></a>
+            <a href="https://twitter.com/dcsdotbzu" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://cs.bzu.edu.pk/index.php#" target="_blank"><img src="linkedin.png" alt="LinkedIn" ></a>
+          </div>
+          <p><b>© 2016 - All Rights Reserved - Department of Computer Science, BZU Multan [http://cs.bzu.edu.pk]</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // JavaScript to trigger the modal on page load
+    $(document).ready(function () {
+      $('#latestEventsModal').modal('show');
+    });
+  </script>
+</body>
+
+</html>
